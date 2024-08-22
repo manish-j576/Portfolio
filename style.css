@@ -149,19 +149,20 @@
         cursor:pointer;
 }
 .third-section{
+    /* background-color: rgb(250, 250, 250); */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
 }
 .about-me{
     padding: 100px 0px;
    text-align: center;
     width: 60%;
-    background-color: #3f9d14;
+    /* background-color: #3f9d14; */
 }
-.aboutme-heading{
-    
-}
+
 .aboutme-heading h1{
     padding-bottom: 10px;
 font-size: 40px;
@@ -175,9 +176,124 @@ font-size: 40px;
         margin: auto;
 }
 .aboutme-content{
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;    
+    color: #555555;
+
+/* background-color: #e39378; */
+
+}
+.aboutme-content p{
+    padding-top: 10px;
+    max-width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.box-container{
+    width: 80%;
+    margin: auto;
+    color: rgb(102, 102, 102);
+    display: flex;
+    gap: 100px;
+}
+.get-to-know-me{
+    max-width: 45%;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: left;
+}
+.get-to-know-me h3{
+    color: black;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-bottom: 24px;
+}
+
+.get-to-know-me p{
+    padding: 10px;
+    font-size: 20px;
+
+}
+.contact-btn{
+    padding-top:10px ;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 80px;
+}
+.contact-btn a{
+    margin-left: 10px;
+
+}
+.skills-container{
+    
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        text-align: left;
+        width: 50%;
+}
+.skills-container h3{
+    color: black;
+        padding-left: 10px;
+        font-size: 30px;
+        padding-bottom: 24px;
+    }
+
+.skills-list{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.skills{
+        background: rgba(153, 153, 153, 0.2);
+    width: fit-content;
+    padding: 8px 20px;
+    color: #666;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.fourth-section{
+    background-color: rgb(255,255,255);
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.project{
+padding: 100px 0px;
+    text-align: center;
     width: 60%;
+}
+.project-heading h1{
+padding-bottom: 10px;
+    font-size: 40px;
 
-background-color: #e39378;
-
+}
+.project-dash{
+    background-color: #7843E9;
+        width: 29px;
+        height: 5px;
+        border-radius: 2px;
+        margin: auto;
+}
+.project-content{
+    display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        color: #555555;
+}
+.project-content p {
+    padding-top: 10px;
+    max-width: 80%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #666;
 }
