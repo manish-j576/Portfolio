@@ -1,4 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -468,4 +471,10 @@ textarea{
     padding-top: 18px;
     color: white;
 
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
 }
